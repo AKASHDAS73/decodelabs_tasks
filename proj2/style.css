@@ -1,11 +1,5 @@
-/* ===========================
-   Google Font
-=========================== */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-/* ===========================
-   Reset
-=========================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 * {
     margin: 0;
@@ -23,9 +17,6 @@ body {
     color: #333;
 }
 
-/* ===========================
-   Navbar
-=========================== */
 
 .navbar {
     width: 100%;
@@ -62,9 +53,6 @@ body {
     color: #ffd43b;
 }
 
-/* ===========================
-   Hero Section
-=========================== */
 
 .hero {
     display: flex;
@@ -118,9 +106,6 @@ body {
     box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
 }
 
-/* ===========================
-   Services
-=========================== */
 
 .services {
     padding: 80px 8%;
@@ -169,9 +154,6 @@ body {
     line-height: 1.6;
 }
 
-/* ===========================
-   About
-=========================== */
 
 .about {
     display: flex;
@@ -208,9 +190,6 @@ body {
     line-height: 1.8;
 }
 
-/* ===========================
-   Footer
-=========================== */
 
 footer {
     background: #0d6efd;
@@ -227,9 +206,6 @@ footer p {
     margin: 5px 0;
 }
 
-/* ===========================
-   Responsive Design
-=========================== */
 
 @media(max-width:992px) {
 
@@ -249,7 +225,7 @@ footer p {
 
 }
 
-/* Mobile */
+
 
 @media(max-width:768px) {
 
@@ -290,7 +266,7 @@ footer p {
 
 }
 
-/* Small Mobile */
+
 
 @media(max-width:480px) {
 
