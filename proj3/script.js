@@ -1,17 +1,23 @@
-
 const text = document.getElementById("text");
-const btn = document.getElementById("btn");
 
-btn.addEventListener("click",function(){
+document.getElementById("changeText").addEventListener("click", () => {
+    text.textContent = "JavaScript makes webpages interactive!";
+})
+document.getElementById("changeColor").addEventListener("click", () => {
 
-    text.textContent = "JavaScript Successfully Changed This Text!";
+    const colors = [
+        "red",
+        "green",
+        "blue",
+        "purple",
+        "orange"
+    ];
 
+    const randomColor = colors[Math.floor(Math.random() * colors.length)];
+
+    text.style.color = randomColor;
 });
 
-const darkBtn = document.getElementById("darkMode");
-
-darkBtn.addEventListener("click",function(){
-
+document.getElementById("darkMode").addEventListener("click", () => {
     document.body.classList.toggle("dark");
-
 });
